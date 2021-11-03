@@ -10,4 +10,9 @@ class Oven extends Multicooker {
         System.out.println("Готовится");
     }
 
+    @Override
+    void powerOff() {
+        System.out.println("Отключена и готова к охлождению");
+    }
 }
+

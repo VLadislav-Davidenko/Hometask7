@@ -10,7 +10,6 @@ abstract class Multicooker extends AbstractDevice {
     @Override
     void powerOff() {
         System.out.println("Мультиварка выключилась :(");
-        System.out.println("Приятного аппетита");
     }
 
     abstract void cook();
